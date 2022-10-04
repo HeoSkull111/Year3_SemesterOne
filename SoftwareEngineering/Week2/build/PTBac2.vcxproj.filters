@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ADminie\Desktop\SoftwareEngineering\Week2\PTBac2_Waterfall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ADminie\Desktop\SoftwareEngineering\Week2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{71CF420C-728E-39B3-8BC8-27CA8C303BC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

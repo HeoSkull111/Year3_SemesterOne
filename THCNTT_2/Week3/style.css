@@ -1,0 +1,49 @@
+.container {
+    width: 960px;
+    height: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header {
+    width: 960px;
+    height: 150px;
+    background-image: linear-gradient(to left, #312e2b, #a09995);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font {
+    font: Quicksand, sans-serif; 
+    font-size: 2em;
+}
+.contest {
+    text-align: center;
+    color: #90DEF3;
+    align-content: center;
+}
+.main {
+    width: 960px;
+    height: 700px;
+}
+.footer {
+    width: 960px;
+    height: 150px;
+    background-color: black;
+}
+.left {
+    width:440px;
+    height:660px;
+    background-color: #e5b49b;
+    float:left;
+    padding:20px
+}
+.right {
+    width:480px;
+    height:700px;
+    background-color: red;
+    float: right;
+}
+.img {
+    width: 440px;
+    height:auto;
+}
