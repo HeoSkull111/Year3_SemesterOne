@@ -1,9 +1,8 @@
 #include <iostream>
 #include <math.h>
 # define pi 3.14159265358979323846 /* pi */
-
 using namespace std;
-
+//Nhập hệ số và giải phương trình bậc 3
 void Nhap(float &a, float &b, float &c, float &d) {
     cout << "Nhap he so a: ";
     cin >> a;
@@ -14,6 +13,7 @@ void Nhap(float &a, float &b, float &c, float &d) {
     cout << "Nhap he so d: ";
     cin >> d;
 }
+//Giải phương trình bậc 3
 void GiaiPTBac3(float a, float b, float c, float d) {
     if (a == 0) {
         if (b == 0) {
@@ -40,11 +40,9 @@ void GiaiPTBac3(float a, float b, float c, float d) {
         float delta = b * b - 3 * a * c;
         float k = (-2 * b * b * b + 9 * a * b * c - 27 * a * a * d)/2*sqrt(fabs(delta*delta*delta));
         if (delta == 0) {
-            float x = (-b+cbrt(b*b*b - 27*a*a*d))/3*a;
-            cout << "Phuong trinh co 1 nghiem boi: " << x; 
+            
         } else if (delta < 0) {
-            float x = ((sqrt(fabs(delta)))/(3*a))*(cbrt(k+sqrt(k*k +1))+cbrt(k-sqrt(k*k +1))) - (b/(3*a));
-            cout << "Phuong trinh co 1 nghiem duy nhat: " << x; 
+
         } else {
             if (fabs(k) <=1) {
                 float x = acos(k)/3;
@@ -55,14 +53,7 @@ void GiaiPTBac3(float a, float b, float c, float d) {
                 cout << "Phuong trinh co 3 nghiem phan biet: " << x1 << " - " << x2 << " - " << x3;
             } else {
                 float x = ((sqrt(delta)*fabs(k))/(3*a*k))*(cbrt(fabs(k)+sqrt(k*k -1))+cbrt(fabs(k)-sqrt(k*k -1))) - (b/(3*a));
-                cout << "Phuong trinh co 1 nghiem duy nhat: " << x; 
             }
         }
     }
 }
-int main() {
-    float a, b, c,d;
-    Nhap(a, b, c, d);
-    GiaiPTBac3(a, b, c, d);
-    return 0;
-}   
