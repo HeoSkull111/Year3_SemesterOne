@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/ADminie/Desktop/SoftwareEngineering/Week2/build"
+			"value" : "c:/Users/ADminie/Desktop/Year3_HK1/SoftwareEngineering/Week2/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -463,7 +463,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ADminie/Desktop/SoftwareEngineering/Week2/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/ADminie/Desktop/Year3_HK1/SoftwareEngineering/Week2/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -523,7 +523,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/ADminie/Desktop/SoftwareEngineering/Week2"
+			"value" : "C:/Users/ADminie/Desktop/Year3_HK1/SoftwareEngineering/Week2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1455,7 +1455,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ADminie/Desktop/SoftwareEngineering/Week2/build"
+			"value" : "C:/Users/ADminie/Desktop/Year3_HK1/SoftwareEngineering/Week2/build"
 		},
 		{
 			"name" : "PTBac2_IS_TOP_LEVEL",
@@ -1479,7 +1479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ADminie/Desktop/SoftwareEngineering/Week2"
+			"value" : "C:/Users/ADminie/Desktop/Year3_HK1/SoftwareEngineering/Week2"
 		},
 		{
 			"name" : "SITE",

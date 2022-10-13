@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/ADminie/Desktop/SoftwareEngineering/Week2
-BuildDirectory: C:/Users/ADminie/Desktop/SoftwareEngineering/Week2/build
+SourceDirectory: C:/Users/ADminie/Desktop/Year3_HK1/SoftwareEngineering/Week2
+BuildDirectory: C:/Users/ADminie/Desktop/Year3_HK1/SoftwareEngineering/Week2/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/ADminie/Desktop/SoftwareEngineering/Week2"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/ADminie/Desktop/Year3_HK1/SoftwareEngineering/Week2"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

@@ -56,8 +56,8 @@
 	{
 		"name" : "CTestDashboardTargets"
 	},
-	"id" : "Experimental::@6890427a1f51a3e7e1df",
-	"name" : "Experimental",
+	"id" : "Continuous::@6890427a1f51a3e7e1df",
+	"name" : "Continuous",
 	"paths" : 
 	{
 		"build" : ".",
@@ -85,13 +85,13 @@
 		{
 			"backtrace" : 5,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/Experimental",
+			"path" : "build/CMakeFiles/Continuous",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3fc3a3a0097edd9369f8325f51af141c/Experimental.rule",
+			"path" : "build/CMakeFiles/fe9da1456a8b46d488b4cbf490dc7f71/Continuous.rule",
 			"sourceGroupIndex" : 1
 		}
 	],
