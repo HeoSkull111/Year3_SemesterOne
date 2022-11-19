@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Test Farms</title>
+    <meta name="viewport" content="width=width-device,initial-scale =1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-
+Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+
+    <style>
+        p,
+        h2 {
+            margin: 0px
+        }
+
+        .header {
+            background-color: orange;
+            height: 100px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .footer {
+            background-color: orange;
+            height: 100px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .main {
+            height: 800px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .details {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <h2>LIST OF FARMS </h2>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 device">
+                    <img class="img-thumbnail" src='../images/2.jpg' />
+                    <h5>FARM 01 </h5>
+                    <p>description here description here description here </p>
+                    <ul class="details">
+                        <li>
+                            <span style="font-size: 32px; color: red;">
+                                <i class="fas fa-temperature-high"></i> 29.5
+                            </span>
+                        <li>
+                            <span style="font-size: 32px; color: blue;">
+                                <i class="fas fa-water"></i>
+                            </span>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-primary btn-sm">Details</a>
+
+                </div>
+                <div class="col-md-4 device">
+                    <img class="img-thumbnail" src='../images/2.jpg' />
+                    <h5>FARM 02 </h5>
+                    <p>description here description here description here </p>
+                    <ul class="details">
+                        <li>
+                            <span style="font-size: 32px; color: red;">
+                                <i class="fas fa-temperature-high"></i> 29.5
+                            </span>
+
+                        <li>
+                            <span style="font-size: 32px; color: blue;">
+                                <i class="fas fa-water"></i>
+                            </span>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-primary btn-sm">Details</a>
+                </div>
+                <div class="col-md-4 device">
+                    <img class="img-thumbnail" src='../images/2.jpg' />
+                    <h5>FARM 03 </h5>
+                    <p>description here description here description here </p>
+                    <ul class="details">
+                        <li>
+                            <span style="font-size: 32px; color: red;">
+                                <i class="fas fa-temperature-high"></i> 29.5
+                            </span>
+
+                        <li>
+                            <span style="font-size: 32px; color: blue;">
+                                <i class="fas fa-water"></i>
+                            </span>
+                        </li>
+                    </ul> <a href="#" class="btn btn-primary btn-sm">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <p>@TH CNTT 2</p>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            loadFarms();
+
+            function loadFarms() {
+                $.ajax({
+                    type: 'GET',
+                    contentType: "application/json",
+                    dataType: 'json',
+                    url: 'https://localhost:44354/api/test/getAllTest',
+                    success: function (data) {
+                        var str = "";
+                        $.each(data, function (i, item) {
+                            str += '<div class="col-md-4 device">';
+                            str += '<img class="img-thumbnail" src="./2.jpg" />';
+                            str += '<h5>FARM 01 </h5>';
+                            str += '<p>description here description here description here </p > ';
+                            str += '<ul class="details">';
+                            str += '<li>';
+                            str += '<span style="font-size: 32px; color: red;">';
+                            str += '<i class="fas fa-temperature-high"></i> 29.5';
+                            str += '</span>';
+                            str += '<li>';
+                            str += '<span style="font-size: 32px; color: blue;">';
+                            str += '<i class="fas fa-water"></i> ';
+                            str += '</span> ';
+                            str += '</li>';
+                            str += '</ul>';
+                            str += '<a href="#" class="btn btn-primary btnsm" >Details</a>';
+                            str += '</div>';
+                        })
+                        console.log(data);
+                        $("#farms").innerHtml(str);
+
+                    },
+                    error: function (data) {
+                        alert("error");
+                    }
+                })
+            }
+        })
+    </script>
+</body>
+
+</html>

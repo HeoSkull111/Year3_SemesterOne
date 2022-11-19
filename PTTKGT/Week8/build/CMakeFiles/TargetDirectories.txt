@@ -1,0 +1,9 @@
+D:/Year3_HK1/PTTKGT/Week8/build/CMakeFiles/Experimental.dir
+D:/Year3_HK1/PTTKGT/Week8/build/CMakeFiles/Nightly.dir
+D:/Year3_HK1/PTTKGT/Week8/build/CMakeFiles/Continuous.dir
+D:/Year3_HK1/PTTKGT/Week8/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/Year3_HK1/PTTKGT/Week8/build/CMakeFiles/MaTranKe.dir
+D:/Year3_HK1/PTTKGT/Week8/build/CMakeFiles/PACKAGE.dir
+D:/Year3_HK1/PTTKGT/Week8/build/CMakeFiles/RUN_TESTS.dir
+D:/Year3_HK1/PTTKGT/Week8/build/CMakeFiles/ALL_BUILD.dir
+D:/Year3_HK1/PTTKGT/Week8/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^D:\YEAR3_HK1\KTLTNC\WEEK9\BUILD\CMAKEFILES\BC93DB0FCA8FB886F533728BA3DA2F34\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Year3_HK1/KTLTNC/Week9 -BD:/Year3_HK1/KTLTNC/Week9/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Year3_HK1/KTLTNC/Week9/build/Day.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
